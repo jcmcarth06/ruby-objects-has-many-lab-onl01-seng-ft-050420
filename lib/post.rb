@@ -9,6 +9,11 @@ class Post  #is initialized with an argument of a title
     @title = title
   end
 
+  def self.all
+    @@all
+  end
+
+
   def author_name
     if @author == nil  #  returns nil if the post does not have an author
       return nil
