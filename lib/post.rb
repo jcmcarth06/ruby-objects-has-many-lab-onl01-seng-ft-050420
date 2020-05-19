@@ -1,4 +1,3 @@
-
 class Post  #is initialized with an argument of a title
 
   attr_accessor :title, :author   #has a title
