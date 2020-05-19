@@ -26,6 +26,6 @@ class Author  #s initialized with a name
   end
 
   def self.post_count
-    @@post_count
+    Song.all.count
   end
 end
