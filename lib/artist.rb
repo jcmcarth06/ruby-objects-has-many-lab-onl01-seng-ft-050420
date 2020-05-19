@@ -8,8 +8,6 @@ class Artist #is initialized with a name
     @name = name
   end
 
-
-
   def add_song(song) # takes in an argument of a song and associates that song with
                       # the artist by telling the song that it belongs to that artist
     @songs << song
@@ -30,7 +28,7 @@ class Artist #is initialized with a name
   end
 
   def self.song_count
-    @@song_count
+    Song.all.count
   end
 
 end
