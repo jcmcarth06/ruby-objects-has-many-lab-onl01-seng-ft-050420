@@ -6,6 +6,7 @@ class Artist #is initialized with a name
 
   def initialize(name)
     @name = name
+    @songs = []
   end
 
   def add_song(song) # takes in an argument of a song and associates that song with
