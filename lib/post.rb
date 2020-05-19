@@ -4,7 +4,6 @@ class Post  #is initialized with an argument of a title
   attr_accessor :title, :author   #has a title
                                   #belongs to an author
 
-
   def initialize(title)
     @title = title
   end
@@ -12,7 +11,6 @@ class Post  #is initialized with an argument of a title
   def self.all
     @@all
   end
-
 
   def author_name
     if @author == nil  #  returns nil if the post does not have an author
