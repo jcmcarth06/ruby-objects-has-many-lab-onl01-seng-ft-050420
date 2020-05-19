@@ -1,4 +1,3 @@
-
 class Author  #s initialized with a name
 
   attr_accessor :name, :posts  #has an attr_accessor for name
